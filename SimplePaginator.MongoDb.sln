@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplePaginator.MongoDb", "SimplePaginator.MongoDb\SimplePaginator.MongoDb.csproj", "{D85DC4CC-308B-4922-9549-03982259FC4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplePaginator.MongoDb.Tests", "SimplePaginator.MongoDb.Tests\SimplePaginator.MongoDb.Tests.csproj", "{67884D72-51B6-4FD0-9EDD-B0437FB369DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D85DC4CC-308B-4922-9549-03982259FC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85DC4CC-308B-4922-9549-03982259FC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85DC4CC-308B-4922-9549-03982259FC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85DC4CC-308B-4922-9549-03982259FC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67884D72-51B6-4FD0-9EDD-B0437FB369DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67884D72-51B6-4FD0-9EDD-B0437FB369DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67884D72-51B6-4FD0-9EDD-B0437FB369DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67884D72-51B6-4FD0-9EDD-B0437FB369DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D0D2853-39CF-4531-8682-6CF96D858576}
+	EndGlobalSection
+EndGlobal
