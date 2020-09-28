@@ -24,7 +24,7 @@ IPaginationResult paginated = source.PaginateAsync(page: 1, pageSize: 15);
 ```
 
 You can also use an async custom function
-```
+```csharp
 //Returns an IPaginationResult with the first 15 entries, where the page count is calculated using a custom async function.
 IPaginationResult paginated = await source.PaginateAsync(page: 1, pageSize: 15, (q) => Task.FromResult(50));
 ```
